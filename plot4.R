@@ -17,7 +17,7 @@ png("plot4.png", width = 480, height = 480, bg = "transparent")
 par(mfrow = c(2, 2))
 
 ## plot  image1
-with(data, plot(datetime, Global_active_power, "l", xlab = "", ylab = "Global Acive Power (kilowatts)"))
+with(data, plot(datetime, Global_active_power, "l", xlab = "", ylab = "Global Acive Power"))
 
 ## plot image2
 with(data, plot(datetime, Voltage, "l"))
